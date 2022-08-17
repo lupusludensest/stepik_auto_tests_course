@@ -1,3 +1,3 @@
-# stepik_auto_tests_course
-stepik_auto_tests_course
-# поставьте нормальную оценку на степике-не рушьте мозг
+"added readme"
+"simple test case added"
+"homework from previous module"
