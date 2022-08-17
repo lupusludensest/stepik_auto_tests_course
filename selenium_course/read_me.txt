@@ -63,3 +63,6 @@ https://stackoverflow.com/questions/15122864/selenium-wait-until-document-is-rea
 https://blog.codeship.com/get-selenium-to-wait-for-page-load/
 http://barancev.github.io/slow-loading-pages/
 http://barancev.github.io/page-loading-complete/
+
+Хороший репо
+https://github.com/ElenaProkorym/stepik_auto_tests_course
