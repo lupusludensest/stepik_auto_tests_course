@@ -17,20 +17,15 @@ class Test3_2_unit_test_3(unittest.TestCase):
 
         # Ваш код, который заполняет обязательные поля
         input1 = self.browser.find_element(By.XPATH, FRST_NM)
-        input1.clear();
-        input1.send_keys("Ivan")
+        input1.clear(); input1.send_keys("Ivan")
         input2 = self.browser.find_element(By.XPATH, LST_NM)
-        input2.clear();
-        input2.send_keys("Petrov")
+        input2.clear(); input2.send_keys("Petrov")
         input3 = self.browser.find_element(By.XPATH, EML)
-        input3.clear();
-        input3.send_keys("ddd@dd.ddd")
+        input3.clear(); input3.send_keys("ddd@dd.ddd")
         input4 = self.browser.find_element(By.XPATH, PHN)
-        input4.clear();
-        input4.send_keys("4074354433")
+        input4.clear(); input4.send_keys("4074354433")
         input5 = self.browser.find_element(By.XPATH, ADRSS)
-        input5.clear();
-        input5.send_keys("Moscow")
+        input5.clear(); input5.send_keys("Moscow")
 
         # Отправляем заполненную форму
         button = self.browser.find_element(By.CSS_SELECTOR, SBMT_BTN)
@@ -53,7 +48,7 @@ class Test3_2_unit_test_3(unittest.TestCase):
     # конец кода
 
     def test_three_two_unit_test2(self):
-        link = "http://suninjuly.github.io/registration1.html"  # failed
+        link = "http://suninjuly.github.io/registration2.html"  # failed
         self.browser.maximize_window(); self.browser.get(link)
         # Locators
         FRST_NM = ("(//input[@class='form-control first'])[1]"); LST_NM = ("(//input[@class='form-control second'])[1]")
