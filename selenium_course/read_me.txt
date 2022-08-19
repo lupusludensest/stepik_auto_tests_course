@@ -76,9 +76,9 @@ https://learngitbranching.js.org/ — отличный интерактивны�
 
 https://git-scm.com/book/ru/v2/ — лучшая книга вообще
 
-https://hyperskill.org/learn/topic/257/﻿
+https://hyperskill.org/learn/topic/257/
 
-https://stepik.org/course/4138/﻿
+https://stepik.org/course/4138/
 
 https://stepik.org/course/3145/
 

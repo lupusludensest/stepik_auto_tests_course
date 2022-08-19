@@ -41,7 +41,8 @@ try:
     welcome_text = welcome_text_elt.text
 
     # с помощью assert проверяем, что ожидаемый текст совпадает с текстом на странице сайта
-    assert expected_text == welcome_text
+    assert expected_text == welcome_text, \
+        f'Expected "{expected_text}" but got "{welcome_text}"'
 
 finally:
     # ожидание чтобы визуально оценить результаты прохождения скрипта
