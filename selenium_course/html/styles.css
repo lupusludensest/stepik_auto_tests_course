@@ -1,0 +1,50 @@
+body {
+    background: grey;
+    margin: 50px;
+}
+
+p {
+    background: yellow;
+    font-size: 28px;
+    color:  aqua;
+    font-weight: 100;
+    font-family: Futura;
+    border: 5px dashed solid orangered;
+    padding: 20px 40px;
+    margin: 50px;
+
+    box-shadow: 10px 10px 10px black;
+}
+
+#p1 {
+    background: lawngreen;
+}
+
+.p1 {
+    background: brown;
+}
+
+.border1 {
+    border: 5px solid black;
+}
+
+.border2 {
+    border: 5px dashed solid red;
+}
+
+.border3 {
+    border: 5px solid blue;
+}
+
+p.p1.border1 .talk {
+    background: blueviolet;
+}
+
+h1 {
+    background: orange;
+}
+
+h2 {
+    background: red;
+}
+
