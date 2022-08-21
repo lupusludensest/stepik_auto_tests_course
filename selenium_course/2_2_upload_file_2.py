@@ -29,7 +29,7 @@ try:
 
 # upload file
     current_dir = os.path.abspath(os.path.dirname(__file__))
-    file_name = '2.2_upload_file_2.txt'
+    file_name = '2_2_upload_file_2.txt'
     file_path = os.path.join(current_dir, file_name)
     element = browser.find_element(By.CSS_SELECTOR, CHS_FL_BTN)
     element.send_keys(file_path)
