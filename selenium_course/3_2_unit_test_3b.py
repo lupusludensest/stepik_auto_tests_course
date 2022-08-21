@@ -31,7 +31,7 @@ def registration(link):
         welcome_text_elt = browser.find_element(By.TAG_NAME, WLCM_TXT)
         return welcome_text_elt.text
 
-class TestsForPages(unittest.TestCase):
+class Test_3_2_unit_test_3b(unittest.TestCase):
     def test_first_page(self):
         actual_text = registration("http://suninjuly.github.io/registration1.html")
         self.assertEqual(actual_text, expected_text)

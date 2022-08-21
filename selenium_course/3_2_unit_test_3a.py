@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import time
 import unittest
 
-class Test3_2_unit_test_3(unittest.TestCase):
+class Test_3_2_unit_test_3a(unittest.TestCase):
     browser = webdriver.Chrome()
 
     def test_three_two_unit_test1(self):
