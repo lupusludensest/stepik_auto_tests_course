@@ -48,15 +48,19 @@ file_path = os.path.join(current_dir, file_name)
 element = browser.find_element(By.CSS_SELECTOR, "[type='file']")
 element.send_keys(file_path)
 
-Общее
+# Общее
 
 http://chromedriver.chromium.org/getting-started
-https://www.guru99.com/selenium-tutorial.html — Туториал на английском, ориентирован на Java.
-https://www.guru99.com/live-selenium-project.html — Можно попробовать писать автотесты для демо-сайта банка. Тоже Java.
-http://barancev.github.io/good-locators/ — что такое хорошие селекторы
-http://barancev.github.io/what-is-path-env-var/ — что за PATH переменная?
+https://www.guru99.com/selenium-tutorial.html
+# — Туториал на английском, ориентирован на Java.
+https://www.guru99.com/live-selenium-project.html
+# — Можно попробовать писать автотесты для демо-сайта банка. Тоже Java.
+http://barancev.github.io/good-locators/
+# — что такое хорошие селекторы
+http://barancev.github.io/what-is-path-env-var/
+# — что за PATH переменная?
 
-Ожидания в Selenium WebDriver
+# Ожидания в Selenium WebDriver
 
 https://www.selenium.dev/documentation/webdriver/waits/
 https://stackoverflow.com/questions/15122864/selenium-wait-until-document-is-ready
@@ -64,17 +68,19 @@ https://blog.codeship.com/get-selenium-to-wait-for-page-load/
 http://barancev.github.io/slow-loading-pages/
 http://barancev.github.io/page-loading-complete/
 
-Хороший репо
+# Хороший репо
 
 https://github.com/ElenaProkorym/stepik_auto_tests_course
 
-Полезные ссылки по Гиту
-Настоятельно советуем самостоятельно прочитать про ветки (бранчи) и пулл-реквесты — это основной инструмент
-коллективной работы в Git.
+# Полезные ссылки по Гиту
+# Настоятельно советуем самостоятельно прочитать про ветки (бранчи) и пулл-реквесты — это основной инструмент
+# коллективной работы в Git.
 
-https://learngitbranching.js.org/ — отличный интерактивный туториал
+https://learngitbranching.js.org/
+# — отличный интерактивный туториал
 
-https://git-scm.com/book/ru/v2/ — лучшая книга вообще
+https://git-scm.com/book/ru/v2/
+# — лучшая книга вообще
 
 https://hyperskill.org/learn/topic/257/
 
@@ -88,14 +94,17 @@ https://habr.com/company/intel/blog/344962/
 
 https://githowto.com/ru
 
-Руководство про написание юнит-тестов в Python:
+# Руководство про написание юнит-тестов в Python:
 
 https://realpython.com/python-testing/
 
-PyTest: правила запуска тестов
-В этом шаге мы коротко обсудим важные особенности запуска тестов с помощью PyTest. Когда мы выполняем команду pytest, тест-раннер собирает все тесты для запуска по определенным правилам:
-если мы не передали никакого аргумента в команду, а написали просто pytest, тест-раннер начнёт поиск в текущей директории
-как аргумент можно передать файл, путь к директории или любую комбинацию директорий и файлов, например:
+# PyTest: правила запуска тестов
+# В этом шаге мы коротко обсудим важные особенности запуска тестов с помощью PyTest.
+# Когда мы выполняем команду pytest, тест-раннер собирает все тесты для запуска по
+# определенным правилам:
+# * если мы не передали никакого аргумента в команду, а написали просто pytest, тест-раннер
+# начнёт поиск в текущей директории
+# * как аргумент можно передать файл, путь к директории или любую комбинацию директорий и файлов, например:
 
 pytest scripts/selenium_scripts
 # найти все тесты в директории scripts/selenium_scripts
@@ -106,3 +115,8 @@ pytest test_user_interface.py
 pytest scripts/drafts.py::test_register_new_user_parametrized
 # найти тест с именем test_register_new_user_parametrized в указанном файле в указанной директории и выполнить
 
+# Если запустить PyTest с параметром -v (verbose, то есть подробный),
+# то в отчёт добавится дополнительная информация со списком тестов и статусом их прохождения:
+# Другие полезные команды для манипуляции выводом тестов PyTest можно найти по ссылке: https://gist.github.com/amatellanes/12136508b816469678c2.
+# настроить запуск тестов, чтобы информация не выводилась можно например добавить флаг --tb=line
+# параметр -s, чтобы увидеть текст, который выводится командой print()
